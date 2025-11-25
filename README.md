@@ -47,13 +47,14 @@ This project demonstrates how to build a traceable, modular, graph-based chatbot
 
 # 📂 Project Structure
 **📦 openrouter-chatbot**
-+ ├── main.py                # FastAPI backend
-  ├── graph.py               # LangGraph workflow
-  ├── agent.py               # OpenRouter message handler
-  ├── ro.py                  # Streamlit Chat UI
-  ├── langsmith_setup.py     # LangSmith setup and environment variables
-  ├── .env                   # API keys (not committed to GitHub)
-  └── requirements.txt        # Project dependencies
+├── main.py                # FastAPI backend
+├── graph.py               # LangGraph workflow
+├── agent.py               # OpenRouter message handler
+├── ro.py                  # Streamlit Chat UI
+├── langsmith_setup.py     # LangSmith setup and environment variables
+├── .env                   # API keys (not committed to GitHub)
+└── requirements.txt       # Project dependencies
+
 
 # 🔧 Installation & Setup
 **1️⃣ Clone the repository**
