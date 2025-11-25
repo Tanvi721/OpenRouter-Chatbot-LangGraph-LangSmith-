@@ -9,20 +9,20 @@ This project demonstrates how to build a traceable, modular, graph-based chatbot
 + Clean state transitions
 + Modular processing architecture
 
-# ✅ OpenRouter LLM Integration
+ **✅ OpenRouter LLM Integration**
 
 + Uses OpenRouter API to access powerful models
 + Currently configured with openai/gpt-4o-mini
 
-# ✅ LangSmith Observability
+**✅ LangSmith Observability**
 + Full tracing of requests
 + Debugging, evaluation and analytics
 
-# ✅ FastAPI Backend
+**✅ FastAPI Backend**
 + /chat endpoint for programmatic access
 + Lightweight and production-ready API
 
-# ✅ Streamlit Frontend
+**✅ Streamlit Frontend**
 + Chat UI
 + Session-based chat history
 + Real-time conversation interface
@@ -69,7 +69,7 @@ venv\Scripts\activate      # Windows
 + Install packages:
   pip install -r requirements.txt
 
-# 3️⃣ Set Environment Variables
+**3️⃣ Set Environment Variables**
 + Create a .env file in the project root:
 OPENROUTER_API_KEY=your_openrouter_api_key
 
