@@ -1,0 +1,23 @@
+import os
+from dotenv import load_dotenv
+from openai import OpenAI
+
+load_dotenv()
+
+client = OpenAI(
+    base_url="https://openrouter.ai/api/v1",
+    api_key=os.getenv("OPENROUTER_API_KEY"),
+)
+
+def process_user_message(message: str):
+    response = client.chat.completions.create(
+        model="openai/gpt-4o-mini",
+        extra_headers={
+            "HTTP-Referer": "https://example.com",
+            "X-Title": "OpenRouter Chatbot",
+        },
+        messages=[
+            {"role": "user", "content": message}
+        ]
+    )
+    return response.choices[0].message.content
