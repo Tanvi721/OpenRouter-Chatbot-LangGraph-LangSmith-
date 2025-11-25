@@ -1,6 +1,7 @@
 # 💬 OpenRouter Chatbot (LangGraph + LangSmith)
 ## 🎥 Project Demo Video
-🎥 Project Demo Video: [Click here to watch](assets/Chatbot.mp4)
+[![Watch the Demo Video](thumbnail.png)](Chatbot.webm)
+
 
 
 <img width="1920" height="1011" alt="Screenshot (209)" src="https://github.com/user-attachments/assets/75eb739b-622d-4336-95be-2052c5d25b7f" />
