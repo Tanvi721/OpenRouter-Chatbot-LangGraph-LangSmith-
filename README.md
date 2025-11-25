@@ -1,4 +1,7 @@
 # 💬 OpenRouter Chatbot (LangGraph + LangSmith)
+<img width="1920" height="1011" alt="Screenshot (209)" src="https://github.com/user-attachments/assets/75eb739b-622d-4336-95be-2052c5d25b7f" />
+<img width="1920" height="1013" alt="Screenshot (210)" src="https://github.com/user-attachments/assets/e7225033-b879-42ff-989c-e89c92fd8dab" />
+<img width="1920" height="998" alt="Screenshot (213)" src="https://github.com/user-attachments/assets/cc01522b-dd70-4708-9806-0e48aa1b4d9d" />
 
 An intelligent chatbot built using **OpenRouter, LangGraph, LangSmith, FastAPI, and Streamlit.**
 This project demonstrates how to build a traceable, modular, graph-based chatbot workflow using stateful reasoning and real-time message tracking.
@@ -45,15 +48,15 @@ This project demonstrates how to build a traceable, modular, graph-based chatbot
 
 + Provides debugging and evaluation logs
 
-📂 Project Structure
-📦 openrouter-chatbot
-├── main.py           # FastAPI backend
-├── graph.py           # LangGraph workflow
-├── agent.py           # OpenRouter message handler
-├── ro.py             # Streamlit Chat UI
-├── langsmith_setup.py  # LangSmith setup and environment variables
-├── .env                 # API keys (not committed to GitHub)
-└── requirements.txt   # Project dependencies
+# 📂 Project Structure
+**📦 openrouter-chatbot**
++ ├── main.py           # FastAPI backend
++ ├── graph.py           # LangGraph workflow
++ ├── agent.py           # OpenRouter message handler
++ ├── ro.py             # Streamlit Chat UI
++ ├── langsmith_setup.py  # LangSmith setup and environment variables
++ ├── .env                 # API keys (not committed to GitHub)
++ └── requirements.txt   # Project dependencies
 
 
 
